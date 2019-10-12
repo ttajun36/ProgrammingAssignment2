@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 ## when we put matrix x, it returns list 4 function that 1. change matrix 2. get matix
-## 3. get Solve (solve = inverse matrix), 4. set Solve (solve = inverse matrix 
+## 3. get Solve (solve = inverse matrix), 4. set Solve (solve = inverse matrix )  => it can save matrix and its inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
@@ -19,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## input is the "special matrix" : list with 4 arguments that is produced by makeCacheMatrix function.
 ## it returns a matrix that is the inverse of 'x' by solve function, and save it
 
 cacheSolve <- function(x, ...) {
